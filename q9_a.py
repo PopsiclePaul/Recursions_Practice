@@ -10,4 +10,5 @@ def pattern(n,a=1):
         return pattern(n,a+1)
     
 
-pattern(a,n)
+pattern(n)
+
