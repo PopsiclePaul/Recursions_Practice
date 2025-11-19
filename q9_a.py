@@ -1,13 +1,13 @@
 n = int(input('enter no of lines: '))
-a = 1
 
-def pattern(a,n):
+def pattern(n,a=1):
     if n == a:
         print(n*'*',end = '')
         print()
     else:
         print(a*'*',end = '')
         print()
-        return pattern(a+1,n)
+        return pattern(n,a+1)
     
+
 pattern(a,n)
